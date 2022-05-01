@@ -1,0 +1,46 @@
+body {
+    background: #f7f5f2;
+    font-family: sans-serif;
+}
+
+.circlecount {
+    background: #ff7a59;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    background: #9fb4ff;
+    color: #383838;
+}
+
+.parentcircle {
+    display: table;
+    margin: 50px auto;
+    border-radius: 50%;
+    background: #9fb4ff;
+    height: 200px;
+    width: 200px;
+}
+
+.s1 {
+    display: inline-block;
+    margin: 0.25rem;
+    padding: 1rem;
+    width: 32%;
+    border-radius: 5%;
+    border: 0.1em solid rgb(14, 65, 205);
+    background-color: #9fb4ff;
+}
+
+.p1 {
+    text-align: left;
+    margin: 1rem 0;
+    color: #383838;
+}
+
+.container .content {
+    padding: 5px;
+}
